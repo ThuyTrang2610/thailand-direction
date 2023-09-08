@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "819534973944",
+    "project_id": "direction-irrigation",
+    "storage_bucket": "direction-irrigation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819534973944:android:8133fb883e12030ec7240d",
+        "android_client_info": {
+          "package_name": "org.direction.irrigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819534973944-5ic22h5hma6pcduv95ug0bop8hh87k09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFbs4YdyHENoqNykBzTEiiXOh503i6X8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819534973944-5ic22h5hma6pcduv95ug0bop8hh87k09.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "819534973944-a5pajpk17f6rktgdpbucbrkgtnmp8gec.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.direction"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

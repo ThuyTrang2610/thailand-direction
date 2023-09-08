@@ -1,0 +1,95 @@
+{
+    "tab1": "ยินดีต้อนรับ" ,
+    "tab2": "การตั้งค่า",
+    "tab3": "คำแนะนำ",
+    "simulationResults":"ผลการจำลอง",
+    
+    "welcomeMessage":"ยินดีต้อนรับสู่แอปพลิเคชัน \n การให้น้ำของมันสำปะหลัง",
+  "instructionMessage":"วิธีการใช้งาน \n 1. โปรดเลื่อนไปทางซ้ายมือเพื่อเริ่มต้นการทำงาน \n 2. คุณสามารถป้อนข้อมูลได้ที่นี่ \n 3. กดเลื่อนไปทางซ้ายเพื่อดูผลลัพธ์",
+  "disclaimerMessage":"ข้อตกลงและเงื่อนไขการใช้งาน: \n แอปพลิเคชันการให้น้ำในมันสำปะหลังยังอยู่ในขั้นตอนของการพัฒนา ยังไม่สามารถนำไปใช้งานได้จริง ผู้พัฒนาแอปพลิเคชันจะไม่รับผิดชอบต่อความเสียหายใด ๆ ที่เกิดขึ้นทั้งสิ้น",
+   "fieldNameDismissed": "{fieldName} ชื่อแปลงที่ถูกลบทิ้ง", 
+    "@fieldNameDismissed": {
+        "description": "Tell what field is deleted",
+        "placeholders": {
+            "fieldName": {
+                "type": "String",
+                "example": "ชื่อแปลงมันสำปะหลัง"
+            }
+        }
+    },
+    "editFieldName":"แก้ไข {fieldName}",
+    "@editFieldName": {
+      "description": "Tell what field is being edited",
+      "placeholders": {
+          "fieldName": {
+              "type": "String",
+              "example": "ชื่อแปลงมันสำปะหลัง"
+          }
+      }
+  },
+  "hintFieldName":"ชื่อแปลงมันสำปะหลัง",
+  "pleaseEnterUniqueFieldName":"โปรดป้อนชื่อแปลง",
+  "addingField": "กำลังเพิ่มชื่อแปลง",
+    "cancel":"ยกเลิก",
+    "submit":"ส่งข้อมูล",
+    "error":"เกิดข้อผิดพลาด",
+    "tooManyFields":"จำนวนชื่อแปลงมากเกินไป",
+    "pleaseRemoveField":"โปรดลบชื่อแปลงเดิมก่อนเพิ่มชื่อแปลงใหม่",
+    "returnMsg":"ส่งกลับ",
+    "fieldName": "ชื่อแปลง (ลักษณะการปลูก)",
+    "fieldColor": "เลือกสีเป็นตัวแทนสำหรับแปลงปลูก",
+    "pleaseAddField":"โปรดเพิ่มชื่อแปลงปลูกอย่างน้อยหนึ่งชื่อในแท็ปก่อนหน้า",
+    "xlabTime": "เวลา (วัน)",
+    "ylabYield": "ผลผลิต (กิโลกรัมต่อไร่)",
+    "ylabTheta":"ปริมาณน้ำในดิน (มิลลิลิตรต่อลูกบาศก์เซนติเมตร)",
+    "ylabIrrigation":"ปริมาณน้ำชลประทานสะสม (ลูกบาศก์เมตรต่อไร่)",
+    "unitIrrigation":"ลูกบาศก์เมตรต่อไร่",
+    "unitRGR":"กรัมต่อกรัมต่อวัน",
+    "unitYield":"กิโลกรัมต่อไร่",
+    "unitLAI":"ตารางเมตรต่อไร่",
+    "unitTime":"วัน",
+    "unitPercent":"%",
+    "noUnit":"-",
+    "unithour":"ชั่วโมง",
+    "unitcm":"เซนติเมตร",
+    "unitliterperholeperhour":"ลิตร/รู/ชม",
+    "parameterNameRGR": "อัตราการเจริญเติบโตสัมพัทธ์",
+    "parameterNamePotentialYield": "ปริมาณผลผลิตที่คาดว่าจะได้รับ",
+    "parameterNameInitialLeafArea":"พื้นที่ใบ",
+    "parameterNameStartingTime":"เวลาเริ่มปลูก (วันของปี) \n(นับวันที่ 1 มกราคมเป็นวันที่ 1 ของปี)",
+    "parameterNameEndingTime":"ระยะเวลาของรอบปลูก (วัน) \n(เก็บเกี่ยวเมื่ออายุครบกี่วัน)",
+    "parameterNameFieldCapacity":"ระดับความชื้นของดินที่ต้องควบคุม \n(ค่าศูนย์ แสดงว่าไม่มีการให้น้ำ)",
+    "parameterNameDefault": "ตัวแปรที่ไม่สามารถระบุได้",
+    "waitForDataLoading":"โปรดรอจนกว่าข้อมูลจะโหลดเสร็จ",
+    "waitForSimulation":"โปรดรอจนกว่าการจำลองจะเสร็จสิ้น",
+    "parameterNameTheta":"ความชื้นดินชั้นบน (% ความจุภาคสนาม)",
+    "parameterNameLabileCarbon":"คาร์บอนสะสม (%)",
+    "parameterNamePhotoSynthesis":"การสังเคราะห์ด้วยแสง (กรัมคาร์บอน)",
+    "parameterNameTopSoilNcontent":"ปริมาณธาตุไนโตรเจนของดินชั้นบน (มิลลิกรัมต่อกิโลกรัม)",
+    "parameterNameNi":"สถานะธาตุไนโตรเจนในดิน (อัตราส่วนที่เหมาะสมที่สุด)",
+    "jan":"ม.ค.",
+"mar":"มี.ค.",
+"may":"พ.ค.",
+"jul":"ก.ค.",
+"sep":"ก.ย.",
+"nov":"พ.ย.",
+
+"showLess":"แสดงน้อยลง",
+"showMore":"แสดงเพิ่มเติม",
+"leafAreaIndex":"ดัชนีพื้นผิวใบ",
+"yieldPrediction":"แปลง '{fieldName}' มีผลผลิตที่คาดการณ์ได้ประมาณ {yield} {unit}.\n",
+"selectPlantingDate":"เลือกวันปลูก",
+"selectHarvestDate":"เลือกวันเก็บเกี่ยว",
+"unitSRL":"เมตรต่อกรัม",
+"parameterNameSRL":"ความยาวรากจำเพาะต่อน้ำหนักราก",
+"parameterNameDurationOfIrrigation":"ระยะเวลาในการให้น้ำ",
+"parameterNameDripRateOfSingleHole":"อัตราการให้น้ำต่อหนึ่งรู",
+"parameterNameDistanceBetweenHoles": "ระยะห่างระหว่างรูน้ำหยด",
+"parameterNameDistaneBetweenRows": "ระยะห่างระหว่างแถวของแปลงมันสำปะหลัง",
+"parameterNameStopIrrigationXdaysBeforeHarvest": "หยุดให้น้ำกี่วันก่อนการเก็บเกี่ยว",
+"parameterNameReduceOrIncreaseExpectedRainfall": "คาดการณ์ว่าฝนจะตก",
+"parameterNameReduceOrIncreaseFertilizationLevel": "ลดหรือเพิ่มปริมาณการใส่ปุ๋ย",
+"messageNoIrrigationNeeded":"ไม่จำเป็นต้องให้น้ำ\n",
+"messageIrrigationAdvice":"คุณต้องให้น้ำ {amount} {unit} รอบ {date}.\n"
+
+}

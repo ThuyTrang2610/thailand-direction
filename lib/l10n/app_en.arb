@@ -1,0 +1,113 @@
+{
+  "tab1": "Welcome",
+  "@tab1": {
+    "description": "Title for the first tab",
+    "type": "text",
+    "placeholders": {}
+  },
+  "tab2": "Settings",
+  "@tab2": {
+    "description": "Title for the second tab",
+    "type": "text",
+    "placeholders": {}
+  },
+  "tab3": "Advice",
+  "@tab3": {
+    "description": "Title for the third tab",
+    "type": "text",
+    "placeholders": {}
+  },
+  "simulationResults":"Simulation Results",
+  "welcomeMessage":"Welcome to the Cassava Irrigation App",
+  "instructionMessage":"Please swipe left to get started. \n The middle tab allows you to enter data and\n the right tab shows simulation results. The simulations may take a couple of seconds to complete.",
+  "disclaimerMessage":"Disclaimer: Use this app at your own risk. Information provided by this app may be incorrect and the makers do not accept any liability regarding the use of this software or any actions taken on the basis of it.",
+   "fieldNameDismissed": "{fieldName} dismissed",
+    "@fieldNameDismissed": {
+        "description": "Tell what field is deleted",
+        "placeholders": {
+            "fieldName": {
+                "type": "String",
+                "example": "myCassavaField"
+            }
+        }
+    },
+    "editFieldName":"Edit {fieldName}",
+    "@editFieldName": {
+      "description": "Tell what field is being edited",
+      "placeholders": {
+          "fieldName": {
+              "type": "String",
+              "example": "myCassavaField"
+          }
+      }
+  },
+  "hintFieldName":"myCassavaField",
+    "pleaseEnterUniqueFieldName":"Please enter a unique field name",
+    "addingField":"Adding field",
+    "cancel":"Cancel",
+    "submit":"Submit",
+    "error":" Error",
+    "tooManyFields":"Too many fields!",
+    "pleaseRemoveField":"Please remove a field before adding a new one",
+    "returnMsg":"Return",
+    "fieldName":"Field name",
+    "fieldColor":"Field color",
+    "pleaseAddField":"Please add, at least, one field in the previous tab",
+    "xlabTime":"time (days)",
+    "ylabYield":"yield (kg/ha)",
+    "ylabTheta":"soil water content (ml/cm\u00B3)",
+    "ylabIrrigation":"irrigation water (m\u00B3/ha)",
+    "unitIrrigation":"m\u00B3/ha",
+    "unitRGR":"g/g/d",
+    "unitYield":"kg/ha",
+    "unitLAI":"m\u00B2/ha",
+    "unitTime":"d",
+    "unitPercent":"%",
+    "noUnit":"-",
+    "unithour":"h",
+    "unitcm":"cm",
+    "unitliterperholeperhour":"l/hole/hour",
+
+    "parameterNameRGR":"relative growth rate",
+    "parameterNamePotentialYield":"potential yield",
+    "parameterNameInitialLeafArea":"initial leaf area",
+    "parameterNameStartingTime":"starting time (DOY)",
+    "parameterNameEndingTime":"length season (Days)",
+    "parameterNameFieldCapacity":"field capacity to be maintained (0 no irrigation)",
+    "parameterNameDefault":"unnamed variable",
+    "waitForDataLoading":"Please wait till data is loaded.",
+    "waitForSimulation":"Please wait till simulation finishes",
+    "parameterNameTheta":"topsoil wetness (% field capacity)",
+    "parameterNameLabileCarbon":"Labile Carbon (%)",
+    "parameterNamePhotoSynthesis":"photosynthesis (g carbon)",
+    "parameterNameTopSoilNcontent":"topsoil N content (mg/kg)",
+    "parameterNameNi":"N status (ratio to optimal)",
+
+    "jan":"Jan",
+    "mar":"Mar",
+    "may":"May",
+    "jul":"Jul",
+    "sep":"Sep",
+    "nov":"Nov",
+
+    "showLess":"show less",
+    "showMore":"show more",
+    "leafAreaIndex":"LAI",
+    "yieldPrediction":"Field '{fieldName}' has a predicted yield of {yield} {unit}.\n",
+    "selectPlantingDate":"Select planting date.",
+    "selectHarvestDate":"Select harvest date.",
+    "unitSRL":"m/g",
+    "parameterNameSRL":"specific root length",
+    "parameterNameDurationOfIrrigation":"duration of irrigation",
+    "parameterNameDripRateOfSingleHole":"drip rate of single hole",
+    "parameterNameDistanceBetweenHoles":"distrance between holes",
+    "parameterNameDistaneBetweenRows":"distance between rows",
+    "parameterNameStopIrrigationXdaysBeforeHarvest":"stop irrigation X days before harvest",
+    "parameterNameReduceOrIncreaseExpectedRainfall":"reduce or increase expected rainfall",
+    "parameterNameReduceOrIncreaseFertilizationLevel":"reduce or increase fertilization level",
+    "messageNoIrrigationNeeded":"No irrigation needed in the foreseeable future.\n",
+    "messageIrrigationAdvice":"You need to irrigate {amount} {unit} around the {date}.\n"
+
+
+
+}
